@@ -61,3 +61,24 @@ export default defineConfig({
     ],
 });
 ```
+### 最後嘗試run看看
+```
+npm run dev
+```
+### 成功後去確認laravel是否有架起來
+首先修改env檔設定   
+參數請設定為自己環境的參數   
+```
+APP_URL=http://test.test
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=test
+DB_USERNAME=root
+DB_PASSWORD=root
+```
+之後看是要使用laradock的vhost啟動網站   
+或是下指令啟動網站   
+```
+php artisan serve
+```
