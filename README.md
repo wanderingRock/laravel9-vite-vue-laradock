@@ -82,3 +82,20 @@ DB_PASSWORD=root
 ```
 php artisan serve
 ```
+---
+
+### 如果是現成的案子拉下來後要注意的事項   
+如果用docker 記得去容器裡面下指令   
+```
+npm install 
+```
+```
+composer install 
+or
+composer install --ignore-platform-reqs
+```
+建立 .env 擋，並且設定   
+建立 vite.config.js 擋，並且設定   
+```
+php artisan migrate
+```
