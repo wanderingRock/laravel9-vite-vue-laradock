@@ -98,4 +98,5 @@ composer install --ignore-platform-reqs
 建立 vite.config.js 擋，並且設定   
 ```
 php artisan migrate
+php artisan migrate:refresh --seed
 ```
