@@ -88,6 +88,8 @@ php artisan serve
 如果用docker 記得去容器裡面下指令   
 ```
 npm install 
+or
+npm install --force
 ```
 ```
 composer install 
